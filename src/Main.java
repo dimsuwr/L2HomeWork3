@@ -11,7 +11,7 @@ public class Main {
                 world[1] = "Набор_1";
                 world[2] = "Набор_1";
                 world[3] = "12345";
-                world[4] = "Набо_2";
+                world[4] = "Набор_2";
                 world[5] = "Набор_3";
                 world[6] = "Набор_4";
                 world[7] = "12";
@@ -43,6 +43,11 @@ public class Main {
 
 
                 PhoneList phoneList = new PhoneList();
+                /*
+                *
+                * Имена сделаны для простоты усваивания информации, в задании фамилии, условился что это такие фамилии.
+                * =)
+                 */
 
                 phoneList.add("Дмитрий", "79150000001");
                 phoneList.add("Екатерина", "79150000002");
@@ -57,6 +62,8 @@ public class Main {
                 System.out.println(phoneList.get("Алексей"));
                 System.out.println(phoneList.get("Екатерина"));
                 System.out.println(phoneList.get("Юлия"));
+                System.out.println(phoneList.get("Олег"));
                 System.out.println(phoneList.get("Владимир"));
+                System.out.println(phoneList.get("Ирина"));
     }
 }
